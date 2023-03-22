@@ -1,6 +1,6 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+title: "Research Methods and Statistics in Psychology"
+author: "Juan R. Cabrera, PsyD"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
