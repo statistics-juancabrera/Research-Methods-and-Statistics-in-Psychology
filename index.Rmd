@@ -5,6 +5,9 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 # Statistical Decision Tree {-}
+```{r echo=FALSE}
+knitr::include_graphics('Statistical Test Decision Tree.png', dpi = NA)
+```
 # Covariance and Correlation for Continuous Variables
 ## Outline
 •	Covariance
