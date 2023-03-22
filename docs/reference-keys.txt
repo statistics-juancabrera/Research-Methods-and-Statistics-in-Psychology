@@ -8,3 +8,5 @@ correlations
 directionality
 types-of-correlations
 correlations-example
+covariance-and-correlation-for-continuous-variables
+outline

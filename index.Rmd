@@ -4,8 +4,15 @@ author: "Juan R. Cabrera, PsyD"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
+# Statistical Decision Tree {-}
+# Covariance and Correlation for Continuous Variables
+## Outline
+•	Covariance
 
-# Covariance and Correlation
+•	Correlations are fully standardized Covariances
+
+•	Regression Coefficients are partially standardized Covariances
+
 
 ## Correlations
 In bivariate distribution, we may be interested to find out if there is any correlation or covariation between the two variables under study. If the change in one variable affects a change in the other variable, the variables are said to be correlated.
