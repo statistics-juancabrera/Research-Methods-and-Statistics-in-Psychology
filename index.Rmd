@@ -7,7 +7,11 @@ output:
     df_print: paged
 site: bookdown::bookdown_site
 ---
+<<<<<<< HEAD
 # Cover {-}
+=======
+# Title Cover {-}
+>>>>>>> origin/master
 ```{r Title, echo=FALSE}
 knitr::include_graphics('Diving into Research Methods in Psychology Using R Cover.jpg', auto_pdf = TRUE)
 ```
@@ -42,4 +46,8 @@ Pearson, Spearman and Kendall
 
 The Pearson product moment correlation assesses the degree of linear relationship between two quantitative variables.
 Spearman’s rank-order correlation coefficient assesses the degree of relationship between two rank-ordered variables.
+<<<<<<< HEAD
 Kendall’s tau is nonparametric measure of rank correlation.
+=======
+Kendall’s tau is nonparametric measure of rank correlation.
+>>>>>>> origin/master
