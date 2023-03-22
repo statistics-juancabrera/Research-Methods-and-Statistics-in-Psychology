@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 # Title Cover {-}
-```{r Title, echo=FALSE}
+```{r Title, echo=FALSE, fig.height=20, fig.width=20}
 knitr::include_graphics('Diving into Research Methods in Psychology Using R Cover.jpg')
 ```
 
