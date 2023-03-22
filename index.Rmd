@@ -1,11 +1,16 @@
 --- 
-title: "Research Methods and Statistics in Psychology"
-author: "Juan R. Cabrera, PsyD"
+title: "Diving into Research Methods and Statistics in Psychology Using R"
+author: "Juan R. Cabrera, PsyD, MS, MPH(c)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
+# Title Cover {-}
+```{r Title, echo=FALSE}
+knitr::include_graphics('Diving into Research Methods in Psychology Using R Cover.jpg', dpi = NA)
+```
+
 # Statistical Decision Tree {-}
-```{r echo=FALSE}
+```{r Tree, echo=FALSE}
 knitr::include_graphics('Statistical Test Decision Tree.png', dpi = NA)
 ```
 
