@@ -2,9 +2,12 @@
 title: "Diving into Research Methods and Statistics in Psychology Using R"
 author: "Juan R. Cabrera, PsyD, MS, MPH(c)"
 date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
 site: bookdown::bookdown_site
 ---
-# Title Cover {-}
+# Cover {-}
 ```{r Title, echo=FALSE}
 knitr::include_graphics('Diving into Research Methods in Psychology Using R Cover.jpg', auto_pdf = TRUE)
 ```
