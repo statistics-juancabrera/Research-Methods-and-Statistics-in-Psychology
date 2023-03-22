@@ -1,0 +1,62 @@
+--- 
+title: "Diving into Research Methods and Statistics in Psychology Using R"
+author: "Juan R. Cabrera, PsyD, MS, MPH(c)"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+site: bookdown::bookdown_site
+---
+
+# Cover {-}
+```{r Title, echo=FALSE}
+knitr::include_graphics('Diving into Research Methods in Psychology Using R Cover.jpg', auto_pdf = TRUE)
+```
+
+# Statistical Decision Tree {-}
+```{r Tree, echo=FALSE}
+knitr::include_graphics('Statistical Test Decision Tree.png', dpi = NA)
+```
+
+
+# Covariance and Correlation for Continuous Variables
+## Outline
+•	Covariance
+
+•	Correlations are fully standardized Covariances
+
+•	Regression Coefficients are partially standardized Covariances
+
+
+## Correlations
+In bivariate distribution, we may be interested to find out if there is any correlation or covariation between the two variables under study. If the change in one variable affects a change in the other variable, the variables are said to be correlated.
+
+## Directionality 
+If the two variables deviate in the same direction i.e. if the increase (or decrease) in one results in a corresponding increase (or decrease) in the other, correlation is said to be direct or positive.
+If they constantly deviate in the opposite directions i.e. if increase (or decrease) in one results in corresponding decrease (or increase) in the other, correlation is said to be diverse or negative.
+
+## Correlations Example
+For example, the correlation between the heights and weights of a group of persons is positive and the correlation between price and demand of commodity is negative
+
+## Types of Correlations
+Pearson, Spearman and Kendall
+
+The Pearson product moment correlation assesses the degree of linear relationship between two quantitative variables.
+Spearman’s rank-order correlation coefficient assesses the degree of relationship between two rank-ordered variables.
+<<<<<<< HEAD
+Kendall’s tau is nonparametric measure of rank correlation.
+=======
+Kendall’s tau is nonparametric measure of rank correlation.
+>>>>>>> origin/master
+
+<!--chapter:end:index.Rmd-->
+
+# Simple Linear Regression
+
+
+<!--chapter:end:02-tears.Rmd-->
+
+# Multiple Linear Regression
+
+<!--chapter:end:03-race.Rmd-->
+
