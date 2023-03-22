@@ -31,7 +31,7 @@
   
   
 
-<link rel="next" href="simple-linear-regression.html"/>
+<link rel="next" href="covariance-and-correlation-for-continuous-variables.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -72,15 +72,17 @@
 <li><a href="./">RMANDSTATS</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Statistical Decision Tree</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Statistical Decision Tree</a></li>
+<li class="chapter" data-level="1" data-path="covariance-and-correlation-for-continuous-variables.html"><a href="covariance-and-correlation-for-continuous-variables.html"><i class="fa fa-check"></i><b>1</b> Covariance and Correlation for Continuous Variables</a>
 <ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#correlations"><i class="fa fa-check"></i><b>0.1</b> Correlations</a></li>
-<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#directionality"><i class="fa fa-check"></i><b>0.2</b> Directionality</a></li>
-<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#correlations-example"><i class="fa fa-check"></i><b>0.3</b> Correlations Example</a></li>
-<li class="chapter" data-level="0.4" data-path="index.html"><a href="index.html#types-of-correlations"><i class="fa fa-check"></i><b>0.4</b> Types of Correlations</a></li>
+<li class="chapter" data-level="1.1" data-path="covariance-and-correlation-for-continuous-variables.html"><a href="covariance-and-correlation-for-continuous-variables.html#outline"><i class="fa fa-check"></i><b>1.1</b> Outline</a></li>
+<li class="chapter" data-level="1.2" data-path="covariance-and-correlation-for-continuous-variables.html"><a href="covariance-and-correlation-for-continuous-variables.html#correlations"><i class="fa fa-check"></i><b>1.2</b> Correlations</a></li>
+<li class="chapter" data-level="1.3" data-path="covariance-and-correlation-for-continuous-variables.html"><a href="covariance-and-correlation-for-continuous-variables.html#directionality"><i class="fa fa-check"></i><b>1.3</b> Directionality</a></li>
+<li class="chapter" data-level="1.4" data-path="covariance-and-correlation-for-continuous-variables.html"><a href="covariance-and-correlation-for-continuous-variables.html#correlations-example"><i class="fa fa-check"></i><b>1.4</b> Correlations Example</a></li>
+<li class="chapter" data-level="1.5" data-path="covariance-and-correlation-for-continuous-variables.html"><a href="covariance-and-correlation-for-continuous-variables.html#types-of-correlations"><i class="fa fa-check"></i><b>1.5</b> Types of Correlations</a></li>
 </ul></li>
-<li class="chapter" data-level="1" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html"><i class="fa fa-check"></i><b>1</b> Simple Linear Regression</a></li>
-<li class="chapter" data-level="2" data-path="multiple-linear-regression.html"><a href="multiple-linear-regression.html"><i class="fa fa-check"></i><b>2</b> Multiple Linear Regression</a></li>
+<li class="chapter" data-level="2" data-path="simple-linear-regression.html"><a href="simple-linear-regression.html"><i class="fa fa-check"></i><b>2</b> Simple Linear Regression</a></li>
+<li class="chapter" data-level="3" data-path="multiple-linear-regression.html"><a href="multiple-linear-regression.html"><i class="fa fa-check"></i><b>3</b> Multiple Linear Regression</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -107,33 +109,7 @@
 </div>
 <div id="statistical-decision-tree" class="section level1 unnumbered hasAnchor">
 <h1>Statistical Decision Tree<a href="index.html#statistical-decision-tree" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p><img src="Statistical%20Test%20Decision%20Tree.png" /><!-- -->
-# Covariance and Correlation for Continuous Variables
-## Outline
-• Covariance</p>
-<p>• Correlations are fully standardized Covariances</p>
-<p>• Regression Coefficients are partially standardized Covariances</p>
-<div id="correlations" class="section level2 hasAnchor" number="0.1">
-<h2><span class="header-section-number">0.1</span> Correlations<a href="index.html#correlations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In bivariate distribution, we may be interested to find out if there is any correlation or covariation between the two variables under study. If the change in one variable affects a change in the other variable, the variables are said to be correlated.</p>
-</div>
-<div id="directionality" class="section level2 hasAnchor" number="0.2">
-<h2><span class="header-section-number">0.2</span> Directionality<a href="index.html#directionality" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>If the two variables deviate in the same direction i.e. if the increase (or decrease) in one results in a corresponding increase (or decrease) in the other, correlation is said to be direct or positive.
-If they constantly deviate in the opposite directions i.e. if increase (or decrease) in one results in corresponding decrease (or increase) in the other, correlation is said to be diverse or negative.</p>
-</div>
-<div id="correlations-example" class="section level2 hasAnchor" number="0.3">
-<h2><span class="header-section-number">0.3</span> Correlations Example<a href="index.html#correlations-example" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>For example, the correlation between the heights and weights of a group of persons is positive and the correlation between price and demand of commodity is negative</p>
-</div>
-<div id="types-of-correlations" class="section level2 hasAnchor" number="0.4">
-<h2><span class="header-section-number">0.4</span> Types of Correlations<a href="index.html#types-of-correlations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Pearson, Spearman and Kendall</p>
-<p>The Pearson product moment correlation assesses the degree of linear relationship between two quantitative variables.
-Spearman’s rank-order correlation coefficient assesses the degree of relationship between two rank-ordered variables.
-Kendall’s tau is nonparametric measure of rank correlation.</p>
-
-</div>
+<p><img src="Statistical%20Test%20Decision%20Tree.png" /><!-- --></p>
 </div>
             </section>
 
@@ -141,7 +117,7 @@ Kendall’s tau is nonparametric measure of rank correlation.</p>
         </div>
       </div>
 
-<a href="simple-linear-regression.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="covariance-and-correlation-for-continuous-variables.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
