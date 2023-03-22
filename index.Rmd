@@ -20,8 +20,14 @@ knitr::include_graphics('Statistical Test Decision Tree.png', dpi = NA)
 
 
 # Covariance and Correlation for Continuous Variables
-## Outline
-•	Covariance
+
+## Covariance
+The ***covariance*** is a number that reflects the degree to which two random variables vary together. It measures the extent to which these variables change together.
+
+$$
+\text{Cov}(X, Y) = \frac{\sum_{i=1}^{n} (X_i - \bar{X})(Y_i - \bar{Y})}{n - 1}
+$$
+
 
 •	Correlations are fully standardized Covariances
 

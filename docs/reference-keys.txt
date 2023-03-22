@@ -6,3 +6,4 @@ correlations-example
 types-of-correlations
 simple-linear-regression
 multiple-linear-regression
+covariance
