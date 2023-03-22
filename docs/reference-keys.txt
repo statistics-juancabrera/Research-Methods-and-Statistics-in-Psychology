@@ -4,3 +4,7 @@ a-caucus-race-and-a-long-tale
 simple-linear-regression
 covariance-and-correlation
 multiple-linear-regression
+correlations
+directionality
+types-of-correlations
+correlations-example
