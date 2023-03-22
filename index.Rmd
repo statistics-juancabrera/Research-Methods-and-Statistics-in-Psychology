@@ -7,11 +7,8 @@ output:
     df_print: paged
 site: bookdown::bookdown_site
 ---
-<<<<<<< HEAD
+
 # Cover {-}
-=======
-# Title Cover {-}
->>>>>>> origin/master
 ```{r Title, echo=FALSE}
 knitr::include_graphics('Diving into Research Methods in Psychology Using R Cover.jpg', auto_pdf = TRUE)
 ```
